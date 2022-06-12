@@ -1,0 +1,111 @@
+body {
+  background-color: #f1f3f8;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #f1f3f8;
+  max-width: 800px;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  border-top: 15px solid blanchedalmond;
+  border-bottom: 15px solid blanchedalmond;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 12px 10%;
+}
+.container #todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #8f8f8f;
+}
+#todo-form input {
+  width: 550px;
+  height: 29px;
+  border: 2px solid blanchedalmond;
+}
+#todo-form button {
+  border: none;
+  margin-left: 10px;
+  background-color: blanchedalmond;
+  width: 28px;
+  height: 28px;
+  font-size: 18px;
+}
+.container .task-area {
+  margin-top: 30px;
+}
+.container .task-area .task-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid lightgray;
+  height: 58px;
+  position: relative;
+}
+.container .task-area .task-tabs div {
+  cursor: pointer;
+  padding: 2em;
+}
+.container .task-area .task-tabs #under-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 4px;
+  width: 60px;
+  background-color: pink;
+  padding: 0;
+  top: 41px;
+}
+.container .task-area .task-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 2.3rem;
+  border: 1px solid lightgray;
+}
+.container .task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+.task-done {
+  text-decoration: line-through;
+  color: red;
+}
+
+.task-btn button {
+  width: 69px;
+  height: 56px;
+  padding: 1px 6px 1px 6px;
+  border: none;
+  font-size: 16px;
+  transition: 0.5s;
+  /* color: #32cd32; */
+  /* color: #40bfff; */
+  color: royalblue;
+  background-color: #f1f3f8;
+}
+.task-btn button .return-btn {
+  color: gray;
+}
+.task-btn button:hover {
+  background-color: aquamarine;
+  opacity: 0.8;
+}
