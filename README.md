@@ -1,12 +1,8 @@
 ### 📌 할 일 관리(ToDoList) App
 
-### 배포 사이트 : [](https://dashing-blini-dd93ce.netlify.app/)
+### 배포 사이트
 
-- 과제 기한:
-  - 과제 수행 기간: 05월 19일(목) ~ 06월 09일(목)
-  - 코드 리뷰 기간: 06월 09일(목) ~ 06월 17일(금)
-- 내용:
-  - 주어진 API를 활용해 할 일 관리 프로젝트를 만들어보세요.
+https://dashing-blini-dd93ce.netlify.app/
 
 #### 구현 기능
 
