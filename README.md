@@ -4,21 +4,25 @@
 
 https://dashing-blini-dd93ce.netlify.app/
 
+https://user-images.githubusercontent.com/102017296/173235680-f214cfbc-f3b9-48e5-a010-2671ebbf389a.mov
+
+
 #### 구현 기능
 
 - 할 일 목록(list)을 조회(Read)할 수 있다.
 - 할 일 항목(item)을 추가(Create)할 수 있다.
-- 할 일 항목을 수정(Update)할 수 있어야 합니다.
-- 할 일 항목을 삭제(Delete)할 할 수 있다
+- 할 일 항목을 수정(Update)할 수 있다.
+- 할 일 항목을 삭제(Delete)할 할 수 있다.
 - 할 일을 완료하지 않은 항목과 완료한 항목을 탭별로 구분할 수 있다.
 
-#### 사용 기술 스택
+### 사용 기술 스택
 
 - HTML
 - CSS
 - JavaScript
 
-## 사용한 API
+
+### 사용한 API
 
 - 요청 주소(Endpoint): `https://asia-northeast3-heropy-api.cloudfunctions.net/api/todos`
 
